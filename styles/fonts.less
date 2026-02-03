@@ -9,7 +9,7 @@ body{
 	font-family: 'Roboto', sans-serif;
 	font-size: 15px;
 	line-height: 25px;
-	text-align: justify;
+	text-align: left;
 }
 
 h1, h2, h3{
@@ -43,6 +43,7 @@ h1{
 h2{
 	font-weight: 300;
 	font-size: 34px;
+	line-height: 40px;
 	margin-bottom: 30px;
 
 	@media (max-width: @threshold3) {
@@ -75,5 +76,14 @@ strong{
 	h1, h2, h3,
 	strong{
 		color: black;
+	}
+}
+
+ul.bulleted{
+	list-style-type: disc;
+	margin-left: 10px;
+
+	li{
+		margin-bottom: 5px;
 	}
 }
